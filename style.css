@@ -4,7 +4,6 @@ body{
 	font-family: 'Nunito Sans', sans-serif;
 }
 
-
 h1 {
 	color: #6D120D;
 	text-align: center;
@@ -12,6 +11,10 @@ h1 {
 
 h2 {
 	color: #A51C12;
+	text-align: center;
+}
+
+p {
 	text-align: center;
 }
 
@@ -29,11 +32,18 @@ img{
 	padding: 50px;
 }
 
+.medium-size {
+	width: 900px;
+	height: 693px;
+	object-fit: cover;
+}
+
 .small-size {
 	width: 30%;
 	height: 300px;
 	object-fit: cover;
 }
+
 
 .elements-center {
 	text-align: center;
@@ -41,32 +51,40 @@ img{
 
 div {
 	background-color: #D8C1C0;
-	padding : 50px
-
 }
 
-.border{
-	border: 5px solid floralwhite;
+.padding {
+	padding: 50px;
 }
 
-.elements-aligned{
+.border {
+	border-top: 10px solid floralwhite;
+	border-left: 10px solid floralwhite;
+	border-right: 10px solid floralwhite;
+}
+
+.border-total {
+	border: 10px solid floralwhite;
+}
+
+.elements-aligned {
 	display: flex;
 	justify-content: space-around;
 }
 
 
-.navigation-aligned{
+.navigation-aligned {
 	display: flex;
 	justify-content: space-around;
 }
 
 
-a{
+a {
 	color: darkred;
 	text-decoration: none;
 }
 
-a:hover{
+a:hover {
 	color: red;
 	font-size: 20px;
 }
